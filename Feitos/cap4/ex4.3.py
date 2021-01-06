@@ -1,9 +1,15 @@
-salário = float(input("Digite o salário para cálculo do imposto: "))
-base = salário
-imposto = 0
-if base > 3000:
-    imposto = imposto + ((base - 3000) * 0.35)
-    base = 3000
-if base > 1000:
-    imposto = imposto + ((base - 1000) * 0.20)
-print(f"Salário: R${salário:6.2f} Imposto a pagar: R${imposto:6.2f}")
+a = int(input("Insira o primeiro numero:"))
+b = int(input('Insira o segundo numero:'))
+c = int(input('Insira o terceiro numero:'))
+maior = a
+if b > a and b > c:
+    maior = b
+if c > a and c > b:
+    maior = c
+menor = a
+if b < c and b < a:
+    menor = b
+if c < b and c < a:
+    menor = c
+print(f'O maior número é o {maior}')
+print(f'O menor número é o {menor}')
