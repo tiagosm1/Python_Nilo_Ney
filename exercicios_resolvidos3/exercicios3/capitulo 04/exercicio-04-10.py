@@ -31,5 +31,5 @@ elif tipo == "C":
 else:
     preço = 0
     print("Erro ! Tipo de instalação desconhecido!")
-custo = consumo * preço
+custo = con sumo * preço
 print(f"Valor a pagar: R$ {custo:7.2f}")

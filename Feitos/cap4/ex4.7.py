@@ -1,0 +1,1 @@
+# O resultado deve ser o mesmo do apresentado na tabela 4.2.
